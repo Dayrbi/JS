@@ -20,6 +20,57 @@ button[data-action="hide"] {
   background-color: gray;
 }
 
+button[data-action="create"] {
+  background-color:green;
+}
+
+.createTask{
+  width: 410px;
+  height: 80px;
+  position: absolute;
+  z-index: 10;
+  background-color: orchid;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+input[name="task"]{
+  width: 285px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.sendButton{
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  min-width: 50px;
+  height: 30px;
+  margin: 0px;
+  opacity: 1;
+  margin-left: 10px;
+}
+.sendButton:hover {background-color: #3e8e41}
+
+.sendButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.deleteIcon{
+  margin-left: 30%;
+  height: 17px;
+}
+
 .active {
   opacity: 0.9;
 }

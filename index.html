@@ -15,8 +15,15 @@
     Для решения этой задачи можно воспользоваться всеми рассмотренными примерами на прошлом занятии как вспомогательный код-->
 
   <div class="buttons-container">
+    <button data-action="create" class="active">Добавить задачу</button>
     <button data-action="show">Показать список</button>
     <button data-action="hide" class="active">Скрыть список</button>
+    <div class = "createTask">
+      <form name="formTask">
+        <input name="task" type="text" autofocus>
+        <button class="sendButton" name="sendButton" type="button">Создать</button>
+      </form>
+    </div>
   </div>
    
   <div class="list-container show">
@@ -33,22 +40,6 @@
       <li>
         <input type="checkbox" id="3">
         <label for="3">Помыть машину</label>
-      </li>
-      <li>
-        <input type="checkbox" id="4">
-        <label for="4">Поработать</label>
-      </li>
-      <li>
-        <input type="checkbox" id="5">
-        <label for="5">Приготовить обед</label>
-      </li>
-      <li>
-        <input type="checkbox" id="6">
-        <label for="6">Забрать детей</label>
-        </li>
-      <li>
-        <input type="checkbox" id="7">
-        <label for="7">Сделать уборку</label>
       </li>
     </ul>
   </div> 
